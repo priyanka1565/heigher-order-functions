@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+
+    var nums = [1,2,3,4,5,6];
+
+    var empty_array = [];
+    nums.forEach(function(element){
+        empty_array.push(element*10)
+    })
+    console.log(empty_array)
+
+    //by using map
+
+    var out = nums.map(function(element){
+        return element*10
+    })
+    console.log(out)
+
+
+    var array1 = [10,20,30,40,50];
+
+    var box_array = []
+
+    array1.forEach(function(element){
+        console.log("element",element)
+
+        box_array.push(element)
+    })
+    console.log(box_array)
+</script>

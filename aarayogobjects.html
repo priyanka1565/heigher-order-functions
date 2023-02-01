@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+
+    var mobiles = [
+        {brand:"samsang",model:300,},
+        {brand:"nokia",model:400,},
+        {brand:"oppo",model:500,},
+       {brand:"reno",model:600,},
+       {brand:"apple",model:800,},
+    
+    ]
+
+    mobiles.forEach(function(elem){
+        console.log("elem",elem)
+    })
+
+    var out = mobiles.map(function(elem){
+       return elem
+    })
+    console.log(out)
+</script>
